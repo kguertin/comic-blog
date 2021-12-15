@@ -1,11 +1,14 @@
-import * as React from 'react';
+import * as React from "react"
 
-import { PageProps } from "gatsby";
+import Header from "./Header"
 
-const MainLayout: React.FC = ({children}) => {
-return <div>
-    {children}
-</div>
+const MainLayout: React.FC = ({ children }) => {
+  return (
+    <div>
+      <Header />
+      {children}
+    </div>
+  )
 }
 
 export default MainLayout
