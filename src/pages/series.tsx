@@ -2,12 +2,12 @@ import * as React from "react"
 
 import MainLayout from "../components/MainLayout"
 
-const Home: React.FC = () => {
+const ReadThrough: React.FC = () => {
   return (
     <MainLayout>
-      <p>Home</p>
+      <p>Series</p>
     </MainLayout>
   )
 }
 
-export default Home
+export default ReadThrough

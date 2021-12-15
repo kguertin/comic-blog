@@ -2,12 +2,12 @@ import * as React from "react"
 
 import MainLayout from "../components/MainLayout"
 
-const Home: React.FC = () => {
+const Reviews: React.FC = () => {
   return (
     <MainLayout>
-      <p>Home</p>
+      <p>Reviews</p>
     </MainLayout>
   )
 }
 
-export default Home
+export default Reviews

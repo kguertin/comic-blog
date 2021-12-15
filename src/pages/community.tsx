@@ -2,12 +2,12 @@ import * as React from "react"
 
 import MainLayout from "../components/MainLayout"
 
-const Home: React.FC = () => {
+const Community: React.FC = () => {
   return (
     <MainLayout>
-      <p>Home</p>
+      <p>Community</p>
     </MainLayout>
   )
 }
 
-export default Home
+export default Community
