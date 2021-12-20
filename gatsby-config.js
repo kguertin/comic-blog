@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     author: "Kevin Guertin",
     title: "Comic Cavern",
-    curretYear: year,
+    currentYear: year,
   },
   plugins: ["gatsby-plugin-typescript"],
 }

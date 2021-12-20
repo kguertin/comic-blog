@@ -1,4 +1,5 @@
 import * as React from "react"
+import Footer from "./Footer"
 
 import Header from "./Header"
 
@@ -7,6 +8,7 @@ const MainLayout: React.FC = ({ children }) => {
     <div>
       <Header />
       {children}
+      <Footer />
     </div>
   )
 }
