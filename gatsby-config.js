@@ -6,5 +6,5 @@ module.exports = {
     title: "Comic Cavern",
     currentYear: year,
   },
-  plugins: ["gatsby-plugin-typescript"],
+  plugins: ["gatsby-plugin-typescript", "gatsby-plugin-styled-components"],
 }

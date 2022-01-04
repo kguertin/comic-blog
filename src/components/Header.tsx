@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 
+import { HeaderContainer } from "./Header.styles"
+
 const Header: React.FC = () => {
   const data = useStaticQuery(graphql`
     query HeaderData {
@@ -11,8 +13,9 @@ const Header: React.FC = () => {
       }
     }
   `)
+
   return (
-    <nav>
+    <HeaderContainer>
       <h2>{data.site.siteMetadata.title}</h2>
       <ul>
         <li>
@@ -28,7 +31,7 @@ const Header: React.FC = () => {
           <Link to="/series">Series Reads</Link>
         </li>
       </ul>
-    </nav>
+    </HeaderContainer>
   )
 }
 
